@@ -35,7 +35,7 @@ namespace ConfigSplitter
             Console.ReadLine();
         }
 
-        //Splite config file sections using functional programming
+        //Split config file sections using functional programming
         private static void ByFunctional()
         {
             new OpenFileDialog { Filter = "Web.config files (*.config)|*.config" }
@@ -57,7 +57,7 @@ namespace ConfigSplitter
                 .Else(() => Console.WriteLine("Nothing happened!..."))
             );
         }
-        //Splite config file sections using Imperative programming
+        //Split config file sections using Imperative programming
         private static void ByImperative()
         {
             var dialod = new System.Windows.Forms.OpenFileDialog { Filter = "Web.config files (*.config)|*.config" };
