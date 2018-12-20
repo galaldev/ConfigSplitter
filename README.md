@@ -10,7 +10,7 @@ and the other file which contains the connection string as following
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <connectionStrings>
- <add name="Reports.ar.Properties.Settings.ERP" connectionString="Data Source=Server;Initial Catalog=Database;Persist Security Info=True;User ID=User;Password=P@ssw0rd;" providerName="System.Data.SqlClient" />
+ <add name="connection" connectionString="Data Source=Server;Initial Catalog=Database;Persist Security Info=True;User ID=User;Password=P@ssw0rd;" providerName="System.Data.SqlClient" />
  </connectionStrings>
 ```
 this code is a tool to select the web.config or app.config file and then split the sections you want in other files bu modifing the `_elementPaths` variable for required sections
